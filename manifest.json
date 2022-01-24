@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Hate Speech Detector",
+  "description": "Machine Learning model to classify hate speech",
+  "version": "1.0.0",
+  "icons": { "128": "pictures/icon_128.png" },
+  "browser_action": {
+    "default_icon": "pictures/icon.png",
+    "default_popup": "index.html"
+  },
+  "permissions": ["activeTab"],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}

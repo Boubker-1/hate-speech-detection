@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="scripts/bootstrap.min.css">
+<script src="scripts/jquery-3.3.1.min.js"></script>
+<script src="scripts/tf.min.js"> </script>
+<script src="scripts/require.js"> </script>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Readex+Pro" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" type="text/css"/>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link
+      href="scripts/style.css"
+      rel="stylesheet"
+    />
+</head>
+
+<body>
+  <div class="modal-header">
+    <h1 class="logo">
+      <img class="logo-icon" src="pictures/hate_speech_icon.png">Hate Speech Detector
+    </h1>
+  </div>
+  <div class="comment-section">
+	  <textarea dir="auto" id="Text" name="Text Area" placeholder="Enter your comment" rows="4" cols="42"></textarea>
+	  <button class="classify-button-disabled" id="predict-button" disabled="disabled"></button>
+	  <p id="status" class="status"></p>
+  </div>
+  <div class="results">
+  	<p class="res_string" id="res_string"></p>
+  	<p class="decision" id="conf_string"></p>
+	 <div class="meter" id="meter">
+	  	<div class="meter_body"><div class="meter_fill"></div></div>
+	 </div>
+	  <p class="decision" id="dec_msg"></p>
+	  <p class="res_string" id="decision"></p>
+  </div>
+  <div class="github">
+  	<br>
+  	<p>By: Zouin Boubker. Github repository: <a href="https://github.com/Boubker-1/hate-speech-detection/" target="_blank"><img src="pictures/github.png"></a></p>
+  </div>
+</body>
+  <script src="script.js"></script>
+</html>
