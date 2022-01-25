@@ -7,7 +7,7 @@ A simple hate speech classifier for Arabic comments. Written in Python and deplo
   
  2-In your browser, navigate to your Extensions section then enable Developer Mode
   
- 3-Click Load Unpacked then navigate to the your cloned folder and select it
+ 3-Click Load Unpacked then navigate to your cloned folder and select it
 
  4-Extension should be loaded. From here, you can open the extension from list of extension icon in the top right corner of your browser
   
