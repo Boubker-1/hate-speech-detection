@@ -1,4 +1,4 @@
-# hate-speech-detection
+# Chrome extension for hate speech detection
 A simple hate speech classifier for Arabic comments. Written in Python and deployed with JavaScript as an extension
 
 ## How to setup the extension?
